@@ -1,0 +1,147 @@
+2025-06-10 13:39:40,171 - INFO - 尝试连接交换机 192.168.172.181
+2025-06-10 13:39:40,528 - INFO - Connected (version 2.0, client OpenSSH_8.3)
+2025-06-10 13:39:40,688 - INFO - Auth banner: b'User Access Verification\n'
+2025-06-10 13:39:40,689 - INFO - Authentication (password) successful!
+2025-06-10 13:39:43,772 - INFO - 成功连接交换机 192.168.172.181
+2025-06-10 13:39:50,738 - INFO - 发送命令: show running-config
+2025-06-10 13:40:04,588 - INFO - 命令响应: show running-config
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other r...
+2025-06-10 13:40:04,605 - INFO - 配置已保存至 configs\192.168.172.181_20250610_134004.cfg
+2025-06-10 13:40:25,658 - INFO - 发送命令: show logging
+2025-06-10 13:41:10,537 - INFO - 发送命令: show logging
+2025-06-10 13:41:23,017 - INFO - 尝试连接交换机 192.168.172.182
+2025-06-10 13:41:23,331 - INFO - Connected (version 2.0, client OpenSSH_8.3)
+2025-06-10 13:41:23,486 - INFO - Auth banner: b'User Access Verification\n'
+2025-06-10 13:41:23,487 - INFO - Authentication (password) successful!
+2025-06-10 13:41:26,579 - INFO - 成功连接交换机 192.168.172.182
+2025-06-10 13:41:29,626 - INFO - 发送命令: show logging
+2025-06-10 13:41:57,353 - INFO - 发送命令: show running-config
+2025-06-10 13:42:07,592 - INFO - 命令响应: show running-config
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other r...
+2025-06-10 13:42:07,594 - INFO - 配置已保存至 configs\192.168.172.182_20250610_134207.cfg
+2025-06-10 13:42:10,819 - INFO - 命令响应: show logging
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other referenc...
+2025-06-10 13:42:41,841 - INFO - 发送命令: show logging
+2025-06-10 13:43:22,931 - INFO - 命令响应: show logging
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other referenc...
+2025-06-10 13:50:38,781 - INFO - 尝试连接交换机 192.168.172.182
+2025-06-10 13:50:39,196 - INFO - Connected (version 2.0, client OpenSSH_8.3)
+2025-06-10 13:50:39,353 - INFO - Auth banner: b'User Access Verification\n'
+2025-06-10 13:50:39,353 - INFO - Authentication (password) successful!
+2025-06-10 13:50:42,443 - INFO - 成功连接交换机 192.168.172.182
+2025-06-10 13:50:45,868 - INFO - 发送命令: show running-config
+2025-06-10 13:50:56,109 - INFO - 命令响应: show running-config
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other reference materials ("Documentation") are
+the proprietary property and confidential information of Cisco
+Systems, Inc. ("Cisco") and are protected, without limitation,
+pursuant to United States and International copyright and trademark
+laws in the applicable jurisdiction which provide civil and criminal
+penalties for copying or distribution without Cisco's authorization.
+
+Any use or disclosure, in whole or in part, of the Nexus 9000v Software
+or Documentation to any third party for any purposes is expressly
+prohibited except as otherwise authorized by Cisco in writing.
+The copyrights to certain works contained herein are owned by other
+third parties and are used and distributed under license. Some parts
+of this software may be covered under the GNU Public License or the
+GNU Lesser General Public License. A copy of each such license is
+available at
+http://www.gnu.org/licenses/gpl.html and
+http://www.gnu.org/licenses/lgpl.html
+***************************************************************************
+*  Nexus 9000v is strictly limited to use for evaluation, demonstration   *
+*  and NX-OS education. Any use or disclosure, in whole or in part of     *
+*  the Nexus 9000v Software or Documentation to any third party for any   *
+*  purposes is expressly prohibited except as otherwise authorized by     *
+*  Cisco in writing.                                                      *
+***************************************************************************
+vN9500-2# show running-config
+
+!Command: show running-config
+!Running configuration last done at: Sun May 18 08:36:38 2025
+!Time: Sun Jun  8 03:46:55 2025
+
+version 10.3(2) Bios:version  
+switchname vN9500-2
+vdc vN9500-2 id 1
+  limit-resource vlan minimum 16 maximum 4094
+  limit-resource vrf mi...
+2025-06-10 13:50:56,111 - INFO - 配置已保存至 configs\192.168.172.182_20250610_135056.cfg
+2025-06-10 13:51:12,212 - INFO - 发送命令: show logging
+2025-06-10 13:51:53,401 - INFO - 命令响应: show logging
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other reference materials ("Documentation") are
+the proprietary property and confidential information of Cisco
+Systems, Inc. ("Cisco") and are protected, without limitation,
+pursuant to United States and International copyright and trademark
+laws in the applicable jurisdiction which provide civil and criminal
+penalties for copying or distribution without Cisco's authorization.
+
+Any use or disclosure, in whole or in part, of the Nexus 9000v Software
+or Documentation to any third party for any purposes is expressly
+prohibited except as otherwise authorized by Cisco in writing.
+The copyrights to certain works contained herein are owned by other
+third parties and are used and distributed under license. Some parts
+of this software may be covered under the GNU Public License or the
+GNU Lesser General Public License. A copy of each such license is
+available at
+http://www.gnu.org/licenses/gpl.html and
+http://www.gnu.org/licenses/lgpl.html
+***************************************************************************
+*  Nexus 9000v is strictly limited to use for evaluation, demonstration   *
+*  and NX-OS education. Any use or disclosure, in whole or in part of     *
+*  the Nexus 9000v Software or Documentation to any third party for any   *
+*  purposes is expressly prohibited except as otherwise authorized by     *
+*  Cisco in writing.                                                      *
+***************************************************************************
+vN9500-2# show logging
+
+Logging console:                enabled (Severity: critical)
+Logging monitor:                enabled (Severity: notifications)
+Logging linecard:               enabled (Severity: notifications)
+Logging timestamp:              Seconds
+Logging source-interface :      disabled
+Loggin...
+2025-06-10 13:54:46,301 - INFO - 命令响应: show logging
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other referenc...
+2025-06-10 13:55:29,948 - INFO - 命令响应: show logging
+Cisco NX-OS Software
+Copyright (c) 2002-2022, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other referenc...
+2025-06-10 13:56:55,315 - INFO - 尝试连接交换机 192.168.172.181
+2025-06-10 13:56:55,641 - INFO - Connected (version 2.0, client OpenSSH_8.3)
+2025-06-10 13:56:55,818 - INFO - Auth banner: b'User Access Verification\n'
+2025-06-10 13:56:55,819 - INFO - Authentication (password) successful!
+2025-06-10 13:56:58,916 - INFO - 成功连接交换机 192.168.172.181
+2025-06-10 13:57:03,114 - INFO - 发送命令: show logging
+2025-06-10 13:57:40,809 - INFO - 发送命令: show running-config
+2025-06-10 13:58:35,777 - INFO - 发送命令: show logging
+2025-06-10 14:04:56,303 - INFO - 尝试连接交换机 192.168.172.182
+2025-06-10 14:04:56,633 - INFO - Connected (version 2.0, client OpenSSH_8.3)
+2025-06-10 14:04:56,795 - INFO - Auth banner: b'User Access Verification\n'
+2025-06-10 14:04:56,795 - INFO - Authentication (password) successful!
+2025-06-10 14:04:59,907 - INFO - 成功连接交换机 192.168.172.182
+2025-06-10 14:05:06,438 - INFO - 发送命令: show running-config
+2025-06-10 14:05:24,126 - INFO - 发送命令: show logging
+2025-06-10 14:08:57,261 - INFO - 发送命令: show running-config
