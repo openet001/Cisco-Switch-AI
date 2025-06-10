@@ -22,3 +22,7 @@ D:test-py>python main.py
 
 # UI images
 in images directionary 
+
+# BUG 
+已实现的功能： 可以ssh登录思科交换机，取交换机配置， 可以调用千问大模型 对配置 进行 分析。 
+目前已知问题：telnet 由于python 3.11以上版本 已认为不安全，我在测试中不断出错，只好放弃了telnet登录，  2. 显示show running-config不全， ， 欢迎大家提供建议
